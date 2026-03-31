@@ -4,7 +4,7 @@ import Index from "./pages/index";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/delivery-app/">
       <Routes>
         <Route path="/" element={<Index />} />
       </Routes>

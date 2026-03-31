@@ -4,5 +4,5 @@ import React from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [tailwindcss,React()],
-  base: "delivery-app"
+  base: "/delivery-app/"
 })
